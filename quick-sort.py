@@ -14,7 +14,6 @@ def partition(arr, l, h):
   arr[p], arr[h] = arr[h], arr[p]
   return h
 
-
 def quicksort(arr, s, e):
   if s < e:
     mid = partition(arr, s, e)
